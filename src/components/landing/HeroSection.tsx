@@ -36,8 +36,11 @@ const HeroSection = ({
             <Button
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8"
+              asChild
             >
-              {ctaText} <ArrowRight className="ml-2 h-5 w-5" />
+              <a href="/dashboard">
+                {ctaText} <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button
               variant="outline"
